@@ -1,0 +1,136 @@
+/* Common Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/*-------------------------------------------------
+                    Header Styles
+ --------------------------------------------------*/
+.header {
+    background: rgba(255, 144, 14, 0.1);
+    padding: 3.125vw 15vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6.25vw;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 2.8vw;
+    color: #131313;
+}
+
+.menu-list {
+    display: flex;
+    gap: 5vw;
+}
+
+.main-menu ul>li {
+    list-style: none;
+    color: #424242;
+    font-size: 1vw;
+}
+
+.main-menu ul>li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* Banner Styles */
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    text-align: center;
+    width: 55vw;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 4vw;
+    margin-bottom: 1.875vw;
+}
+
+.banner-description {
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.primary-btn {
+    height: 4em;
+    padding: 1.25vw 1.5vw;
+    font-size: 1.25vw;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-radius: 0.5vw;
+    background: #FF900E;
+    border: 0;
+    margin-bottom: 3.125vw;
+}
+
+.banner-image img {
+    width: 100%;
+    border-radius: 0.5vw;
+}
+
+/* Section Styles */
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.125vw 18vw;
+    gap: 4.5vw;
+}
+
+.features-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    width: 44.25vw;
+}
+
+.features-images img {
+    width: 100%;
+    height: 16vw;
+}
+
+.features-description {
+    width: 33.5vw;
+}
+
+.description-title {
+    color: #727272;
+    font-size: 2.8vw;
+    font-weight: 500;
+    margin-bottom: 1.25vw;
+}
+
+.description-title .black {
+    font-weight: 700;
+    color: #131313;
+    font-size: 2.8vw;
+}
+
+.description-title .orange {
+    font-size: 2.8vw;
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.description-details {
+    color: #727272;
+    margin-bottom: 1.875vw;
+}

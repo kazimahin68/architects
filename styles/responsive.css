@@ -1,0 +1,55 @@
+@media only screen and (max-width: 576px) {
+    .header {
+        padding: 1.125vw 3vw;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .nav-title {
+        margin-bottom: 1vh;
+    }
+
+    .menu-list {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5vw;
+    }
+
+    .main-menu ul>li {
+        font-size: 2vw;
+    }
+
+    .banner-container {}
+
+    .banner-content {
+        width: 65vw;
+    }
+
+    /* Section Styles */
+
+    .features {
+        flex-direction: column;
+        padding: 3.125vw 15vw;
+    }
+
+    .features-images {
+        grid-template-columns: repeat(1, 1fr);
+        width: 65vw;
+    }
+
+    .features-images img {
+        height: 65vw;
+    }
+
+    .features-description {
+        width: 65vw;
+    }
+
+    .description-details {
+        font-size: 1.5vh;
+    }
+}
