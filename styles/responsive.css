@@ -52,4 +52,60 @@
     .description-details {
         font-size: 1.5vh;
     }
+
+
+    .features-articles {
+        flex-direction: column;
+        padding: 3.125vw 15vw;
+    }
+
+    .articles {
+        width: 65vw;
+    }
+
+    .article-title {
+        font-size: 2vw;
+    }
+
+    .article-description {
+        font-size: 1vw;
+    }
+
+    .architect-image .architect-btn {
+    }
+
+    .facts, .our-sponsors {
+        padding: 3.125vw 15vw;
+    }
+    .all-facts, .sponsors-list {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .facts-description, .sponsor-title, .sponsor-description {
+        margin-bottom: 2vh;
+    }
+
+    .all-facts {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .fact {
+        padding: 25px;
+    }
+
+    .sponsors-list {
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer {
+        margin: 5.125vw 12vw;
+        padding: 2vh 3vw;
+        text-align: center;
+    }
+
+
 }
