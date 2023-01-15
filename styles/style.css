@@ -85,7 +85,9 @@ nav {
     border-radius: 0.5vw;
 }
 
-/* Section Styles */
+/* ----------------------------------
+-----------Section Styles ------------
+--------------------------------------*/
 
 .features {
     display: flex;
@@ -244,6 +246,11 @@ nav {
     text-align: center;
     padding: 15px 25px;
     width: 100%;
+    transition: transform 3s ease-in-out;
+}
+
+.fact:hover {
+    transform: rotate(360deg);  
 }
 
 .fact-number {
@@ -258,6 +265,49 @@ nav {
     font-weight: 600;
 }
 
+/* Architect Courses Styles */
+
+.arc-courses {
+    padding: 4.125vw 18vw;
+}
+
+.courses-title {
+    font-size: 2.8vw;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.courses-description {
+    color: #727272;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px;
+
+}
+
+.course-title {
+    font-weight: 600;
+    font-size: 1.25vw;
+    margin-bottom: 24px;
+}
+
+.course-description {
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.courses img{
+    width: 100%;
+    height: 20vw;
+    border-radius: 10px;
+}
 /* Sponsors Styles */
 
 .our-sponsors {
@@ -291,14 +341,13 @@ nav {
 }
 
 
-/* Footer Section Styles */
+/*--------------------------------------------
+--------- Footer Section Styles----------------
+---------------------------------------------- */
 
 footer {
     background: rgba(255, 144, 14, 0.1);
     margin: 3.125vw 15vw;
     padding: 40px 280px;
-}
-
-.hide {
-    display: none;
+    border-radius: 8px;
 }

@@ -1,3 +1,6 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+
+
 @media only screen and (max-width: 576px) {
     .header {
         padding: 1.125vw 3vw;
@@ -29,13 +32,29 @@
         width: 65vw;
     }
 
+    .nav-title,
+    .description-title,
+    .articles-title,
+    .facts-title,
+    .courses-title .sponsor-title {
+        font-size: 3vw;
+    }
+
+    .article-title,
+    .course-title {
+        font-size: 2.5vw;
+    }
+
     .banner-description,
     .description-details,
     .articles-description,
     .article-description,
     .facts-description,
-    .sponsor-description {
-        font-size: 1.5vw;
+    .courses-description,
+    .course-description,
+    .sponsor-description,
+    footer {
+        font-size: 2vw;
     }
 
     /* Section Styles */
@@ -50,7 +69,8 @@
         width: 65vw;
     }
 
-    .features-images img {
+    .features-images img,
+    .courses img {
         height: 65vw;
     }
 
@@ -68,18 +88,14 @@
         width: 65vw;
     }
 
-    .article-title {
-        font-size: 2vw;
-    }
-
-    .article-description {
-        font-size: 1vw;
+    .article {
+        padding: 10px;
     }
 
     .architect-image .architect-btn {
         position: inherit;
         margin-top: 2vh;
-        margin-left: 2vw;
+        margin-left: 20vw;
         top: auto;
         right: auto;
     }
@@ -88,13 +104,22 @@
         width: 50%;
         margin: auto;
         padding: 5px;
+    }
 
+    .architect-btn p {
+        margin-top: 0;
     }
 
 
     .facts,
-    .our-sponsors {
+    .our-sponsors, .arc-courses {
         padding: 3.125vw 15vw;
+        text-align: center;
+    }
+
+    .facts-title,
+    .sponsor-title {
+        margin-bottom: 10px;
     }
 
     .all-facts,
@@ -106,7 +131,9 @@
 
     .facts-description,
     .sponsor-title,
-    .sponsor-description {
+    .sponsor-description,
+    .course-title,
+    .courses-description, .course-description {
         margin-bottom: 2vh;
     }
 
@@ -119,11 +146,22 @@
         padding: 25px;
     }
 
+    .arc-courses {
+        margin-bottom: 20px;
+    }
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+        justify-content: center;
+        text-align: center;
+    }
+
     .sponsors-list {
         justify-content: center;
         align-items: center;
     }
 
+    /* Footer Style */
     footer {
         margin: 5.125vw 12vw;
         padding: 2vh 3vw;
